@@ -1,0 +1,33 @@
+This is the source for tools to read the SGI "Image" format pixmap files.
+This format is also called "imagelib" even though it is not a library file;
+the nickname derives from the set of routines on the SGI that read the files.
+
+SGIIMAGESPEC is the details on the format, straight off SGI's ftp server.
+
+imgutil.c is a few routines adapted straight out of SGIIMAGESPEC (with
+minor changes; see the source for details).
+
+imgtopgm.c was a standalone program that reads one file, and writes it out
+as an ASCII PBM file. It is now broken, but could be fixed easily.
+It could then be used as-is as an Image-to-PBM
+converter, or the basis for an Image-to-whatever converter.
+
+imgpshop.c is an Adobe PhotoShop(tm) Plug-in that reads image files.
+It has only been built for UNIX platforms, though in theory only
+the "About" box SHOULD need major changes. Look for #ifdef UNIX/#ifdef MAC.
+
+With a bit of work the PlugIn could be extended to write Image files too,
+though I'm not sure why you'd need or want to, since the SGI software
+can usually handle TIFF, and PhotoShop can already write those.
+
+This software is NOT public domain but may be copied under the
+terms of the accompanying LEGAL.NOTICE file (not the GPV).
+It is free software, free of the encumbrances of the GPL.
+
+Enjoy and, if you really like it, send me money or hardware :-)
+
+Ian Darwin
+ian@darwinsys.com
+
+Note: The file "fastimg.c" is NOT used, but was provided as a reference
+implementation by Paul Haeberli of Silicon Graphics. Thanks, Paul!

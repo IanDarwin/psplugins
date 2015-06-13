@@ -1,0 +1,21 @@
+Copying conditions for Ian Darwin's FAX File Format plug-in for Photoshop.
+
+** pi-fax.c - Code to read and write Group 3 FAX files in Photoshop.
+** Copyright (C) 1996 by Ian F. Darwin <ian@darwinsys.com>
+**
+** g3topbm.c - read a Group 3 FAX file and produce a portable bitmap
+** Copyright (C) 1989 by Paul Haeberli <paul@manray.sgi.com>.
+**
+** Permission to use, copy, modify, and distribute this software and its
+** documentation for any purpose and without fee is hereby granted, provided
+** that the above copyright notice appear in all copies and that both that
+** copyright notice and this permission notice appear in supporting
+** documentation.  This software is provided "as is" without express or
+** implied warranty.
+
+May be redistributed under the terms of the GNU Public License only if
+accompanied by a prominent notice that it is available free of the GPL's
+encumbrances direct from the author, and listing the URL from which you
+obtained it.
+
+$Id: LEGAL_NOTICE,v 1.1 96/04/14 12:59:52 ian Exp $

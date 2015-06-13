@@ -1,0 +1,16 @@
+** sgi-image - Code to read and write SGI "Image" files in Photoshop.
+** Copyright (C) 1995, 19966 by Ian F. Darwin <ian@darwinsys.com>
+**
+** Permission to use, copy, modify, and distribute this software and its
+** documentation for any purpose and without fee is hereby granted, provided
+** that the above copyright notice appear in all copies and that both that
+** copyright notice and this permission notice appear in supporting
+** documentation.  This software is provided "as is" without express or
+** implied warranty.
+
+May be redistributed under the terms of the GNU Public License only if
+accompanied by a prominent notice that it is available free of the GPL's
+encumbrances direct from the author, and listing the URL from which you
+obtained it.
+
+$Id: LEGAL_NOTICE,v 1.2 96/04/14 13:32:30 ian Exp $

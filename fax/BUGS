@@ -1,0 +1,8 @@
+BUGS
+
+The Resolution (DPI) is being ignored; although I set it to 200, it comes
+out as 72, resulting in Photoshop thinking that the images are 24 inches wide!
+ALWAYS, when you open a file, immediately change the res to 200, with file
+size constrained.
+
+The top line of a saved FAX appears to have trash in it.

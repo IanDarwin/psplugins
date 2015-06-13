@@ -1,0 +1,10 @@
+BUGS:
+
+If your file isn't called ".rgb" or ".rgba", you have to click "Show
+All Files". Sorry about .bw, which is a valid SGI extention.
+
+Is that a missing scanline I see at the bottom?
+
+WARNING - can only read one file at a time, so cannot Revert or read
+second file. Workaround: force unload by doing Info->About 
+Plug-in->Acquire EPS (or any other plug-in), then retry.

@@ -1,0 +1,5 @@
+= psplugins
+
+This repo contains the source for two Photoshop plugins that I wrote about twenty years ago.
+There is almost no chance of them working on today's photoshop, but there are just out here
+in case anybody finds a use for this code.

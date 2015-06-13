@@ -1,0 +1,58 @@
+<HTML><HEAD><TITLE>A FAX Plug-in for Adobe Photoshop</TITLE>
+<!-- $Id: pifax-readme.html,v 1.2 96/04/14 13:15:20 ian Exp $ -->
+</HEAD>
+<BODY>
+<H1>A FAX Plug-in for Adobe Photoshop</H1>
+<P>This plug-in reads and writes raw Group 3 format FAX files.
+It is just the thing for importing that rough sketch from a client
+into Photoshop at 2:00 in the morning before an important demo.
+<P>We assume that your FAX software is smart enough (read: non-proprietary
+enough!) to save incoming files in a "plain" G3 header.
+Software that uses this format on UNIX includes the popular "efax"
+package, the popular "faxview" viewer (formerly known as g3view),
+and the PBMPLUS routines g3topbm and pbmtog3. And now, of course, Photoshop.
+<P>
+Some other FAX software uses a TIFF header; for that, just use the Photoshop
+TIFF format.
+<P>Yet other fax software writes its own, proprietary, secret, undocumented
+header, and/or mangles the save file format in exotic ways, just so you
+can't use its file with any other software, such as this.
+<EM>Get that software off your system</EM> and send it back to the vendor
+for a refund, until they use a non-proprietary save file format.
+<BLOCKQUOTE><STRONG>Do not ask me for help with such software</STRONG>.</BLOCKQUOTE>
+<H1>Usage</H1>
+<P>What can I say? Just use it.
+<H2>Installation</H2>
+<P>Install the files '%FAX Group 3' and 'FAX Group 3' in your Plug-ins directory
+and restart Photoshop. Is all.
+<H2>Usage</H2>
+Use it like any other format plug-in: Use File->Open if your FAX file
+has a name ending in .g3, otherwise use File->OpenAs (Photoshop 2.5)
+or File->Open and choose the type of G3. Is all.
+<H1>Licensing</H1>
+No license is necessary. Anybody in the world can use this software
+without payment of any license (or "shareware") fees to anybody.
+If you get rich off it, send me a percentage :-)  Is all.
+<H1>History</H1>
+Most of the source-code for this program is taken from 
+three sources:<OL>
+<LI>My own SGI Image Format plug-in;
+<LI>A small bit of generic Adobe SDK (1995 version) File Format plug-in code, and
+<LI>Paul Haeberli's G3 code in the PBMPLUS package.
+</OL>
+<P>My own code is of little value, and Adobe's code is copyable by
+anyone who can download the SDK from their Web site. The most
+restrictive copyright, which is pretty free, is therefore Paul
+Haeberli's, which is reproduced here:
+<PRE>
+/* g3topbm.c - read a Group 3 FAX file and produce a portable bitmap
+**
+** Copyright (C) 1989 by Paul Haeberli <paul@manray.sgi.com>.
+**
+** Permission to use, copy, modify, and distribute this software and its
+** documentation for any purpose and without fee is hereby granted, provided
+** that the above copyright notice appear in all copies and that both that
+** copyright notice and this permission notice appear in supporting
+** documentation.  This software is provided "as is" without express or
+** implied warranty.
+*/
